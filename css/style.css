@@ -1,0 +1,100 @@
+body {
+	background-color:#FFF2F5;
+}
+
+.panel {
+	position:relative;
+	background-size:auto 101%;
+	background-repeat:no-repeat;
+	min-height:456px;
+	overflow:hidden;
+	width:33.32%;
+	float:left;
+}
+
+#rect {
+	width:29.32%;
+	height:960px;
+	-webkit-transform: skew(40deg);
+	background-color:#FFF;
+	position:absolute;
+	top:0; left:0;
+}
+
+#one {
+	background-image:url('../img/portada_1.jpg');
+	-webkit-animation: lo 9s infinite; /* Safari 4+ */
+}
+
+#two {
+	background-image:url('../img/portada_2.jpg');
+	-webkit-animation: lolo 9s infinite; /* Safari 4+ */
+}
+
+#three {
+	background-image:url('../img/portada_3.jpg');
+	-webkit-animation: lololo 13s infinite; /* Safari 4+ */
+}
+
+@-webkit-keyframes lo {
+	0% {
+		-webkit-transform: translateY(30px);
+	}
+	12% {
+		-webkit-transform: translat	eY(70px);
+	}
+	21% {
+		-webkit-transform: translateY(50px);
+	}
+	32% {
+		-webkit-transform: translateY(110px);
+	}
+	51% {
+		-webkit-transform: translateY(400px);
+	}
+	100% {
+		-webkit-transform: translateY(9000px);	
+	}
+}
+
+@-webkit-keyframes lolo {
+	0% {
+		-webkit-transform: translateY(10px);
+	}
+	12% {
+		-webkit-transform: translateY(210px);
+	}
+	21% {
+		-webkit-transform: translateY(30px);
+	}
+	32% {
+		-webkit-transform: translateY(60px);
+	}
+	51% {
+		-webkit-transform: translateY(89px);
+	}
+	100% {
+		-webkit-transform: translateY(9000px);	
+	}
+}
+
+@-webkit-keyframes lololo {
+	0% {
+		-webkit-transform: translateY(110px);
+	}
+	12% {
+		-webkit-transform: translateY(30px);
+	}
+	21% {
+		-webkit-transform: translateY(50px);
+	}
+	32% {
+		-webkit-transform: translateY(10px);
+	}
+	51% {
+		-webkit-transform: translateY(91px);
+	}
+	100% {
+		-webkit-transform: translateY(9000px);	
+	}
+}
