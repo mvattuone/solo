@@ -18,7 +18,17 @@ body {
 	-webkit-transform: skew(40deg);
 	background-color:#FFF;
 	position:absolute;
-	top:0; left:0;
+	top:0; left:0;r
+}
+
+#hands {
+	position: absolute;
+	top: -50px;
+	right: 264px;
+	background-image: url('../img/hands.png');
+	width: 13%;
+	height: 1000px;
+	background-size: contain;
 }
 
 #one {
